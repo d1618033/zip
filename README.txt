@@ -1,16 +1,27 @@
 general
 =======
+Generates instances of a simple ZIP model
 Estimates the parameters of a simple ZIP model (no explanatory variables)
 
 usage
 =====
+to generate:
+$ javac GenerateZIP.java
+$ java GenerateZIP <p> <t> <n>
+p - probability that rv will be drawn from poisson (as oppose to 0)
+t - parameter of poisson distribution
+n - number of rvs to generate
+
+to estimate:
 $ javac EstimateZIP.java
 $ java EstimateZIP <filename>
 
 example
 =======
-$ java EstimateZIP small_file.txt 
-p = 0.35331084288950654
-t = 4.670108583438002
+$ java GenerateZIP 0.5 3 1000 > data1000.txt
+$ java EstimateZIP data1000.txt 
+p = 0.5759694518993623
+t = 2.0255703888797827
+
 
 
