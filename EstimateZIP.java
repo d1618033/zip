@@ -22,7 +22,7 @@ public class EstimateZIP {
 	}
 	
 	/**
-	 * @return the estimate of the probability that v = 0
+	 * @return the estimate of the probability that v = 1
 	 */
 	public double getP(){
 		return p;
