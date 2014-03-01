@@ -1,6 +1,6 @@
 general
 =======
-Estimates the parameters of a simple ZIP model (no explantory variables)
+Estimates the parameters of a simple ZIP model (no explanatory variables)
 
 usage
 =====
