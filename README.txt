@@ -19,6 +19,17 @@ $ java EstimateZIP <filename>
 example
 =======
 $ java GenerateZIP 0.5 3 1000 > data1000.txt
+$ head data1000.txt 
+6
+1
+2
+4
+0
+0
+0
+3
+2
+3
 $ java EstimateZIP data1000.txt 
 p = 0.5759694518993623
 t = 2.0255703888797827
