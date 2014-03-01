@@ -1,4 +1,3 @@
-
 public class GenerateZIP {
 	private double p;
 	private double t;
@@ -22,6 +21,7 @@ public class GenerateZIP {
 			return 0;
 		}
 	}
+	// return an instance of a poisson rv
 	private int randPoisson(){
 		double u = Math.random();
 		double current = Math.exp(-t);
