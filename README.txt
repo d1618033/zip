@@ -5,7 +5,7 @@ Estimates the parameters of a simple ZIP model (no explanatory variables)
 usage
 =====
 $ javac EstimateZIP.java
-$ java EstimateZIP.class <filename>
+$ java EstimateZIP <filename>
 
 example
 =======
