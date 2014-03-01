@@ -1,7 +1,7 @@
 general
 =======
 Generates instances of a simple ZIP model
-Estimates the parameters of a simple ZIP model (no explanatory variables)
+Estimates the parameters of a simple ZIP model
 
 usage
 =====
