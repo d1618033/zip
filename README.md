@@ -5,18 +5,22 @@ general
 
 usage
 -----
-to generate:
+
+first compile the source files
 
     $ javac GenerateZIP.java
+    $ javac EstimateZIP.java
+
+to generate instances of the zip model:
+
     $ java GenerateZIP <p> <t> <n>
 
 - p - probability that rv will be drawn from poisson (as oppose to 0)
 - t - parameter of poisson distribution
 - n - number of rvs to generate
 
-to estimate:
+to estimate the parameters of the zip model:
 
-    $ javac EstimateZIP.java
     $ java EstimateZIP <filename>
 
 example
