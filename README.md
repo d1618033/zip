@@ -4,7 +4,7 @@ general
 - Estimates the parameters of a simple ZIP model
 
 usage
-=====
+-----
 to generate:
 
     $ javac GenerateZIP.java
@@ -20,7 +20,7 @@ to estimate:
     $ java EstimateZIP <filename>
 
 example
-=======
+----------
 
 generating instances: 
 
