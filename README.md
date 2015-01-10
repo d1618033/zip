@@ -47,7 +47,7 @@ first
 estimating paramters:    
 
     $ java EstimateZIP data1000.txt 
-p = 0.5056836064401727
-t = 2.9049784910790795
+    p = 0.5056836064401727
+    t = 2.9049784910790795
 
 
