@@ -29,10 +29,11 @@ example
 ----------
 
 
-first 
+first generate the parameters. remember to write the number of rvs first.
+
     $ echo "1000" > data1000.txt 
     $ java GenerateZIP 0.5 3 1000 >> data1000.txt
-    $ head data1000.txt 
+    $ head data1000.txt
     1000
     0
     7
