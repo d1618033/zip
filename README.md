@@ -23,29 +23,31 @@ to estimate the parameters of the zip model:
 
     $ java EstimateZIP <filename>
 
+the first number in the file must be the number of rvs to read from the file (see example)
+
 example
 ----------
 
-generating instances: 
 
-    $ java GenerateZIP 0.5 3 1000 > data1000.txt
+first 
+    $ echo "1000" > data1000.txt 
+    $ java GenerateZIP 0.5 3 1000 >> data1000.txt
     $ head data1000.txt 
-    6
+    1000
+    0
+    7
     1
-    2
-    4
-    0
-    0
     0
     3
+    0
+    0
     2
-    3
+    0
 
 estimating paramters:    
 
     $ java EstimateZIP data1000.txt 
-    p = 0.5759694518993623
-    t = 2.0255703888797827
-
+p = 0.5056836064401727
+t = 2.9049784910790795
 
 
